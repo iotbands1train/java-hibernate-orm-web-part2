@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.outDiv {
+	display: table;
+	height: 100%;
+	margin: 0 auto; 
+}
+.box{
+	border-style:solid; border:thick; padding:30px;
+}
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.in2Div{ overflow-y: scroll; padding:30px; height: 400px; border: solid thick;}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.inDiv {
+	display: table-cell;
+	vertical-align: middle;
+}
+  
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+form {
+	width: 300px;
+	border: solid;
+	padding: 5px;
+	background-color: white;
+	border: solid; 
+}
+
+navi {
+	background-color: blue;
+} 
+
+h1, h2 {
+	color: green;
+	text-align: center;
+	border-width: thin;
+	padding: 10px;
+}
